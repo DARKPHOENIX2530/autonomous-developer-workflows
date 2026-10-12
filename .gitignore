@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+node_modules/
+.next/
+dist/
+build/
+.DS_Store
+Thumbs.db
+generated-app/
+raw_output.txt

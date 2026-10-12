@@ -1,0 +1,40 @@
+﻿# ===================================================================
+# System Zero Autonomous Agent Configuration
+# Part 2 of 20: Autonomous Developer Workflows Series
+# Docs: https://systemzero.dev
+# ===================================================================
+
+version: "2.0"
+project_name: "system-zero-developer-intelligence"
+
+agents:
+  architect:
+    provider: "google-antigravity"
+    role: "System Architect & UI Evaluator"
+    model: "gemini-3.8-pro"
+    capabilities:
+      - "multimodal-inspection"
+      - "subagent-orchestration"
+      - "generative-ui-rendering"
+      - "task-decomposition"
+    memory:
+      persistent: true
+      context_window: "1M_tokens"
+
+  terminal_worker:
+    provider: "anthropic-claude-code"
+    role: "Autonomous Terminal Engineer"
+    model: "claude-sonnet-4.6"
+    capabilities:
+      - "terminal-execution"
+      - "fast-syntax-patching"
+      - "git-commit-automation"
+    sandbox:
+      allow_bash: true
+      auto_approve_lints: true
+
+workflows:
+  feature_implementation:
+    step_1: "Antigravity designs system architecture and writes test requirements."
+    step_2: "Claude Code terminal worker executes scaffold and unit tests."
+    step_3: "Antigravity visually inspects UI and provides corrective feedback."
