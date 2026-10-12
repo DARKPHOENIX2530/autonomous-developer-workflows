@@ -18,7 +18,7 @@
 * **Pinned Comment**:
   ```text
   Complete architecture setup & the cloud execution script used in this benchmark 👇
-  [YOUR-GITHUB-LINK]
+  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`01-local-ram-overload/`](../01-local-ram-overload/)
 
@@ -38,7 +38,7 @@
 * **Pinned Comment**:
   ```text
   Grab the comparison breakdown and agent setup files here 👇
-  [YOUR-GITHUB-LINK]
+  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`02-claude-vs-antigravity/`](../02-claude-vs-antigravity/)
 
@@ -58,7 +58,7 @@
 * **Pinned Comment**:
   ```text
   Grab the autonomous verification script used in this test 👇
-  [YOUR-GITHUB-LINK]
+  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`03-autonomous-code-verification/`](../03-autonomous-code-verification/)
 
@@ -78,7 +78,7 @@
 * **Pinned Comment**:
   ```text
   Get the exact automated deployment script used in this build 👇
-  [YOUR-GITHUB-LINK]
+  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`04-nextjs-autonomous-scaffolding/`](../04-nextjs-autonomous-scaffolding/)
 
@@ -98,6 +98,6 @@
 * **Pinned Comment**:
   ```text
   Grab the Python orchestration script linked to Google Cloud / AI Studio APIs 👇
-  [YOUR-GITHUB-LINK]
+  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`05-autonomous-background-pipelines/`](../05-autonomous-background-pipelines/)

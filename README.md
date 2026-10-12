@@ -31,7 +31,7 @@ For creators and collaborators, all video titles, descriptions, comma-separated 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/autonomous-developer-workflows.git
+git clone https://github.com/DARKPHOENIX2530/autonomous-developer-workflows.git
 cd autonomous-developer-workflows
 ```
 
