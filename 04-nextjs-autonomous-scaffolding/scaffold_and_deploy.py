@@ -10,6 +10,12 @@ Eliminates 30 minutes of repetitive manual configuration and immediately hooks i
 
 import os
 import sys
+import io
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 import json
 import subprocess
 import argparse

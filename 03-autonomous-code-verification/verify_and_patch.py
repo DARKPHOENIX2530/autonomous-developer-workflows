@@ -11,6 +11,12 @@ to the file on disk, and verifies until all tests pass — eliminating manual co
 
 import os
 import sys
+import io
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 import subprocess
 import time
 import argparse

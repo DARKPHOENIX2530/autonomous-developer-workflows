@@ -12,6 +12,12 @@ rate-limit backoff to autonomous cloud worker agents — so you never have to ba
 import time
 import os
 import sys
+import io
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 import random
 import argparse
 from typing import Callable, Any, Dict, List

@@ -10,6 +10,12 @@ the heavy compute payload to a remote cloud worker cluster (Freebuff).
 """
 
 import sys
+import io
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 import time
 import os
 import gc
