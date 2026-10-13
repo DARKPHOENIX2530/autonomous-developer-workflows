@@ -101,3 +101,43 @@
   https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`05-autonomous-background-pipelines/`](../05-autonomous-background-pipelines/)
+
+---
+
+# 🎬 8-Minute Master Anchor Tutorial (Long-Form)
+
+> **Role in Channel Strategy**: This long-form master video connects all 5 YouTube Shorts into one cohesive build and acts as the **"Related Video"** anchor on YouTube Studio for Shorts 1 through 5.
+
+* **File Name**: `Master_Tutorial_Autonomous_Developer_Workflows.mp4`
+* **Resolution**: 1080p Full HD (1920x1080, 16:9 Landscape)
+* **Title**: `8GB RAM is Dead: The Autonomous Developer Stack (Full Tutorial)`
+* **Description**:
+  ```text
+  Stop thermal throttling your local machine running autonomous AI agents. In this master tutorial, we break down the exact production architecture to offload heavy compute, pit Claude Code against Google Antigravity, and autonomously scaffold a full-stack Next.js and Python pipeline without manual boilerplate.
+
+  🔗 Clone the Complete Repository:
+  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
+
+  ⚡ Video Chapters & Timestamps:
+  0:00 - The Hook: Why 8GB RAM is Dead in 2026
+  0:46 - Chapter 1: The Local Compute Bottleneck (Freebuff Cloud Offload)
+  1:56 - Chapter 2: The Agent War: Claude Code vs. Google Antigravity
+  3:04 - Chapter 3: The Autonomous Build (Stop Copy-Pasting in 2026)
+  4:16 - Chapter 4: Developer Intelligence & Background Pipelines
+  5:10 - The Payoff: Clone the Full Repo & Setup
+
+  🚀 Frameworks & Tools Featured:
+  - Cloud Compute: freebuff.com
+  - Agent Docs: systemzero.dev
+  - Edge Deployment: vercel.com
+  - GitHub Repo: DARKPHOENIX2530/autonomous-developer-workflows
+
+  #AI #Python #Nextjs #WebDev #ClaudeCode #Antigravity #AutonomousAgents
+  ```
+* **YouTube Tags**:
+  `autonomous agents, 8gb ram programming, claude code, google antigravity, python automation, nextjs 14, tailwind css, freebuff, vercel deployment, developer productivity, ai coding assistant, system zero`
+* **Pinned Comment**:
+  ```text
+  Grab the complete code, benchmarks, YAML configs, and Next.js scaffolder here 👇
+  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
+  ```

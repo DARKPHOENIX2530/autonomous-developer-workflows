@@ -7,7 +7,7 @@ def calculate_average(items):
     count = len(items)
     # Bug 2: Can trigger TypeError if strings are passed
     total = sum(items)
-    return total / count
+    return total / count if count > 0 else 0.0
 
 def test_suite():
     print("Executing unit tests...")
