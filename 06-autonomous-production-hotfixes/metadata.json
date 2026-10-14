@@ -1,0 +1,18 @@
+{
+  "episode": 6,
+  "series": "Autonomous Developer Workflows",
+  "title": "Agents Fixing Production Bugs While You Sleep. #Shorts",
+  "description": "Automated CI/CD meets agentic workflows. Let your agents read server logs and push GitHub Pull Requests automatically.\nAgent Docs: systemzero.dev\nPart 6 of 20: Autonomous Developer Workflows Series\n\nGrab the automated PR setup files here:\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows\n\n#DevOps #GitHub #CodingAgents #Shorts",
+  "tags": [
+    "autonomous devops",
+    "ai pull requests",
+    "production bug fixes",
+    "automated ci cd",
+    "python automation",
+    "github cli",
+    "software engineering"
+  ],
+  "category": "Science & technology",
+  "audience": "No, it's not made for kids",
+  "pinned_comment": "Grab the server log webhook listeners and automated GitHub PR scripts here 👇\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows"
+}

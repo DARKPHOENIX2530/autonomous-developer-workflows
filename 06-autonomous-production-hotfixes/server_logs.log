@@ -1,0 +1,16 @@
+2026-10-14T03:14:21.104Z [INFO]  [gateway:router] Incoming request POST /api/v1/checkout/settle from 198.51.100.44 req_id=req_8a91f2c4e
+2026-10-14T03:14:21.112Z [INFO]  [auth:session] Bearer token verified for tenant_id=org_production_enterprise
+2026-10-14T03:14:21.185Z [INFO]  [postgres:pool] Acquired client from pool (active=12, idle=8, latency=1.4ms)
+2026-10-14T03:14:21.220Z [INFO]  [postgres:query] SELECT * FROM orders WHERE id = 'ord_9941a87e' LIMIT 1
+2026-10-14T03:14:21.238Z [INFO]  [service:checkout] Processing order total=100.0 tier='VIP' splits=0
+2026-10-14T03:14:21.242Z [ERROR] [runtime:exception] Unhandled 500 error in worker process 4421 req_id=req_8a91f2c4e
+Traceback (most recent call last):
+  File "server.py", line 88, in handle_settlement
+    res = process_payment_settlement(order.amount, order.num_splits)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "broken_service.py", line 31, in process_payment_settlement
+    return round(amount / num_splits, 2)
+                 ^^^^^^^^^^^^^^^^^^^
+ZeroDivisionError: float division by zero
+2026-10-14T03:14:21.245Z [ALERT] [sentry:webhook] 500 Internal Server Error dispatched to Autonomous DevOps Agent
+2026-10-14T03:14:21.246Z [STATUS] HTTP/1.1 500 Internal Server Error (Duration: 142ms)
