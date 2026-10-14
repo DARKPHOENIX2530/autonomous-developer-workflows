@@ -120,13 +120,13 @@
 
   ⚡ Video Chapters & Timestamps:
   0:00 - The Hook: Why 8GB RAM is Dead in 2026
-  0:46 - Chapter 1: The Local Compute Bottleneck (Freebuff Cloud Offload)
-  1:56 - Chapter 2: The Agent War: Claude Code vs. Google Antigravity
-  3:04 - Chapter 3: The Autonomous Build (Stop Copy-Pasting in 2026)
-  4:16 - Chapter 4: Developer Intelligence & Background Pipelines
-  5:10 - The Payoff: Clone the Full Repo & Setup
-
-  🚀 Frameworks & Tools Featured:
+  0:12 - Real Task Manager Benchmark (Thermal Throttling & Swap)
+  0:42 - The Architectural Fix: Freebuff Cloud Offloading
+  1:14 - The Agent Showdown: Claude Code vs. Google Antigravity
+  2:27 - Stop Copy-Pasting: Autonomous Self-Healing Verification
+  3:02 - Instant Cloud Scaffolding (Next.js 14 + Tailwind + Vercel)
+  3:36 - Developer Intelligence: 429 Rate Limits & Background Cron
+  4:14 - The Payoff: Clone the Full Environment on GitHub  🚀 Frameworks & Tools Featured:
   - Cloud Compute: freebuff.com
   - Agent Docs: systemzero.dev
   - Edge Deployment: vercel.com
