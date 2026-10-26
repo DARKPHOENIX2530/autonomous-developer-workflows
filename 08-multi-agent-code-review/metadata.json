@@ -1,0 +1,18 @@
+{
+  "episode": 8,
+  "series": "Autonomous Developer Workflows",
+  "title": "Stop Reviewing PRs Manually. Deploy Agent Fleets. #Shorts",
+  "description": "Never let a junior dev leak an API key or push an SQL injection again. Deploy specialized autonomous review fleets to audit security, query performance, and architecture before code hits main.\nPart 8 of 20: Autonomous Developer Workflows Series\n\nGrab the multi-agent review script here:\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows\n\n#GitHub #DevOps #CodeReview #Python #AI #Shorts",
+  "tags": [
+    "multi-agent review",
+    "github actions automation",
+    "ai code review",
+    "sql injection prevention",
+    "secret scanning",
+    "python automation",
+    "autonomous agents"
+  ],
+  "category": "Science & technology",
+  "audience": "No, it's not made for kids",
+  "pinned_comment": "Grab the complete autonomous multi-agent PR review fleet code here 👇\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows"
+}

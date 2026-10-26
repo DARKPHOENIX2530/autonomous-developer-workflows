@@ -1,7 +1,7 @@
 # 🚀 Autonomous Developer Workflows (System Zero Series)
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Series Status](https://img.shields.io/badge/Series-Complete%20Master%20Tutorial%20%2B%20Shorts%201--7-brightgreen.svg)](metadata/youtube-shorts-schedule.md)
+[![Series Status](https://img.shields.io/badge/Series-Master%20Tutorials%201%20%26%202%20%2B%20Shorts%2001--10-brightgreen.svg)](metadata/youtube-shorts-schedule.md)
 [![Cloud Framework](https://img.shields.io/badge/Cloud-freebuff.com-orange.svg)](https://freebuff.com)
 [![Agent Docs](https://img.shields.io/badge/Docs-systemzero.dev-blueviolet.svg)](https://systemzero.dev)
 
@@ -9,11 +9,10 @@
 
 ---
 
-## 🎬 Master Tutorial: The Complete Engineering Masterclass (~4:37)
+## 🎬 Master Tutorials (Long-Form Masterclasses)
 
-The comprehensive deep dive combining the core autonomous developer workflows into one unified production stack.
-
-### ⏱️ Master Tutorial Chapters & Code Mapping
+### 🎥 Master Tutorial 1: The Complete Engineering Masterclass (~4:37)
+The foundational deep dive combining the core autonomous developer workflows into one unified production stack.
 
 | Timestamp | Chapter Title | Core Architecture | Code Directory |
 | :---: | :--- | :--- | :--- |
@@ -24,7 +23,24 @@ The comprehensive deep dive combining the core autonomous developer workflows in
 | **3:32** | **Autonomous Background Pipelines** | 429 backoff retry & cloud worker orchestration | [`04-autonomous-background-pipelines/`](04-autonomous-background-pipelines/) |
 | **4:09** | **Production Architecture Ecosystem** | End-to-end repository & tools walkthrough | Root / [systemzero.dev](https://systemzero.dev) |
 
-👉 **Full Copy-Ready Master Tutorial YouTube Metadata**: [`metadata/master-tutorial-upload-pack.md`](metadata/master-tutorial-upload-pack.md)
+👉 **Master Video 1 YouTube Metadata Pack**: [`metadata/master-tutorial-upload-pack.md`](metadata/master-tutorial-upload-pack.md)
+
+---
+
+### 🎥 Master Tutorial 2: Advanced Engineering Fleets (~4:35)
+Moving beyond autocomplete to orchestrate multi-agent fleets across CI/CD, database drift, code review, and QA.
+
+| Timestamp | Chapter Title | Core Architecture | Code Directory |
+| :---: | :--- | :--- | :--- |
+| **0:00** | **The Fleet Paradigm** | Moving beyond prompt babysitting to agent fleets | Architecture Overview |
+| **0:35** | **Autonomous Production Hotfixes at 3 AM** | Stack trace parsing, defensive patching & PR #142 | [`06-autonomous-production-hotfixes/`](06-autonomous-production-hotfixes/) |
+| **1:25** | **Top 3 AI Coding Tools in 2026 Ranked** | Cursor vs Claude Code vs Google Antigravity | [`07-top-3-ai-coding-tools/`](07-top-3-ai-coding-tools/) |
+| **2:10** | **Multi-Agent Code Review Fleets** | Parallel Security, Performance & Architecture bots | [`08-multi-agent-code-review/`](08-multi-agent-code-review/) |
+| **2:55** | **Zero-Downtime Database Migrations** | Schema drift detection & expand-contract pattern | [`09-autonomous-database-migrations/`](09-autonomous-database-migrations/) |
+| **3:45** | **Fullstack Autonomous QA Sentinels** | Headless E2E journeys, OWASP headers & XSS fuzzing | [`10-autonomous-browser-testing/`](10-autonomous-browser-testing/) |
+| **4:25** | **Architecture Repo & Next Steps** | Complete repository walkthrough & roadmap | Root / [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech) |
+
+👉 **Master Video 2 Production Script & Release Pack**: [`metadata/master-video-2-production-script.md`](metadata/master-video-2-production-script.md)
 
 ---
 
@@ -39,6 +55,9 @@ The comprehensive deep dive combining the core autonomous developer workflows in
 | **05** | **System Zero Developer Intelligence.** | Oct 21, 2026 | [Watch](https://youtu.be/jzm37BaWeKI) | [`05-autonomous-code-verification/`](05-autonomous-code-verification/) |
 | **06** | **Autonomous Production Hotfixes at 3 AM.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-06) | [`06-autonomous-production-hotfixes/`](06-autonomous-production-hotfixes/) |
 | **07** | **Top 3 AI Coding Tools in 2026.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-07) | [`07-top-3-ai-coding-tools/`](07-top-3-ai-coding-tools/) |
+| **08** | **Stop Reviewing PRs Manually. Deploy Agent Fleets.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-08) | [`08-multi-agent-code-review/`](08-multi-agent-code-review/) |
+| **09** | **Zero-Downtime Database Migrations with AI Agents.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-09) | [`09-autonomous-database-migrations/`](09-autonomous-database-migrations/) |
+| **10** | **Autonomous End-to-End Browser & QA Agents.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-10) | [`10-autonomous-browser-testing/`](10-autonomous-browser-testing/) |
 
 👉 **Complete Copy-Ready Shorts Upload Metadata**: [`metadata/youtube-shorts-schedule.md`](metadata/youtube-shorts-schedule.md)
 
@@ -91,6 +110,24 @@ cd autonomous-developer-workflows
   ```bash
   cd 07-top-3-ai-coding-tools
   python compare_tools.py
+  ```
+
+* **Part 8 (Multi-Agent Code Review Fleet)**:
+  ```bash
+  cd 08-multi-agent-code-review
+  python review_fleet.py
+  ```
+
+* **Part 9 (Autonomous Database Migration Guard)**:
+  ```bash
+  cd 09-autonomous-database-migrations
+  python migration_guard.py
+  ```
+
+* **Part 10 (Fullstack End-to-End Autonomous QA Agent)**:
+  ```bash
+  cd 10-autonomous-browser-testing
+  python autonomous_e2e_tester.py
   ```
 
 ---

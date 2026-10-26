@@ -1,0 +1,18 @@
+{
+  "episode": 10,
+  "series": "Autonomous Developer Workflows",
+  "title": "Autonomous End-to-End Browser & QA Agents. #Shorts",
+  "description": "Stop writing brittle Playwright and Cypress tests by hand. Deploy autonomous QA agents to audit security headers, fuzz web forms for XSS vulnerabilities, and verify authentication contracts.\nPart 10 of 20: Autonomous Developer Workflows Series\n\nGrab the autonomous QA script here:\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows\n\n#QA #WebDev #Testing #Automation #Python #Shorts",
+  "tags": [
+    "autonomous testing",
+    "qa automation",
+    "e2e browser testing",
+    "owasp security audit",
+    "fuzz testing",
+    "python testing",
+    "software engineering"
+  ],
+  "category": "Science & technology",
+  "audience": "No, it's not made for kids",
+  "pinned_comment": "Grab the complete autonomous fullstack QA agent code here 👇\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows"
+}

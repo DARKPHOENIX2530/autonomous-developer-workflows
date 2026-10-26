@@ -124,3 +124,62 @@
   (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
   ```
 * **Associated Code**: [`07-top-3-ai-coding-tools/`](../07-top-3-ai-coding-tools/)
+
+---
+
+### 🔹 Episode 08: Multi-Agent Code Review Fleets
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 07 (7:30 PM IST)
+* **Title**: `Stop Reviewing PRs Manually. Deploy Agent Fleets. #Shorts`
+* **Description**:
+  ```text
+  Never let a junior dev leak an API key or push an SQL injection again. Deploy specialized autonomous review fleets to audit security, query performance, and architecture before code hits main.
+  Part 8 of 20: Autonomous Developer Workflows Series
+  #GitHub #DevOps #CodeReview #Python #AI #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`08-multi-agent-code-review/`](../08-multi-agent-code-review/)
+
+---
+
+### 🔹 Episode 09: Autonomous Zero-Downtime Database Migrations
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 08 (7:30 PM IST)
+* **Title**: `Zero-Downtime Database Migrations with AI Agents. #Shorts`
+* **Description**:
+  ```text
+  Never lock your production database again. Autonomous agents detect schema drift between code models and live databases, evaluate lock risk, and generate reversible expand-and-contract migrations.
+  Part 9 of 20: Autonomous Developer Workflows Series
+  #Database #SQL #PostgreSQL #DevOps #Python #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`09-autonomous-database-migrations/`](../09-autonomous-database-migrations/)
+
+---
+
+### 🔹 Episode 10: Fullstack Autonomous E2E Browser & QA Agents
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 09 (7:30 PM IST)
+* **Title**: `Autonomous End-to-End Browser & QA Agents. #Shorts`
+* **Description**:
+  ```text
+  Stop writing brittle Playwright and Cypress tests by hand. Deploy autonomous QA agents to audit security headers, fuzz web forms for XSS vulnerabilities, and verify authentication contracts.
+  Part 10 of 20: Autonomous Developer Workflows Series
+  #QA #WebDev #Testing #Automation #Python #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`10-autonomous-browser-testing/`](../10-autonomous-browser-testing/)
+
+---
+
+## 🎬 Long-Form Master Tutorials
+
+### 🎥 Master Video 1: The Complete Masterclass (Episodes 01 - 05)
+* **Video File**: `Master_Tutorial_Autonomous_Developer_Workflows_V8_Final.mp4` (Duration: `4:37`)
+* **Coverage**: RAM bottlenecks, Claude vs Antigravity, Next.js scaffolding, self-healing code, resilient pipelines.
+* **Upload Package**: [`metadata/master-tutorial-upload-pack.md`](master-tutorial-upload-pack.md)
+
+### 🎥 Master Video 2: Advanced Engineering Fleets (Episodes 06 - 10)
+* **Video File**: `Master_Tutorial_2_Autonomous_Engineering_Fleets.mp4` (Duration: `4:35`)
+* **Coverage**: 3 AM production hotfixes, AI coding tools benchmark, multi-agent PR review fleets, zero-downtime DB migrations, autonomous E2E QA testing.
+* **Upload Package & Script**: [`metadata/master-video-2-production-script.md`](master-video-2-production-script.md)
