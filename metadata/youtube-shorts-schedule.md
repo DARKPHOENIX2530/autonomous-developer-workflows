@@ -247,6 +247,81 @@
 
 ---
 
+### 🔹 Episode 16: Autonomous DLQ Saga Healer & Compensating Transactions
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 15 (7:30 PM IST)
+* **Title**: `Poison Pill in Your Message Queue? DLQ Saga Healer! 💥 #Shorts`
+* **Description**:
+  ```text
+  Distributed transactions fail silently when services crash mid-saga. Deploy an autonomous dead-letter queue (DLQ) healer that reconciles broken state with automated compensating transactions.
+  Part 16 of 20: Autonomous Developer Workflows Series
+  #DistributedSystems #Kafka #RabbitMQ #Microservices #Python #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`16-autonomous-dlq-saga-healer/`](../16-autonomous-dlq-saga-healer/)
+
+---
+
+### 🔹 Episode 17: Distributed Tracing Latency Healer & Span Profiler
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 16 (7:30 PM IST)
+* **Title**: `Slow API? Autonomous OpenTelemetry Latency Healer! ⏱️ #Shorts`
+* **Description**:
+  ```text
+  Stop guessing which microservice is slowing down your production API. Deploy an autonomous distributed tracing agent that isolates bottleneck spans and rewrites sequential queries.
+  Part 17 of 20: Autonomous Developer Workflows Series
+  #OpenTelemetry #Performance #DevOps #Microservices #Python #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`17-distributed-tracing-latency-healer/`](../17-distributed-tracing-latency-healer/)
+
+---
+
+### 🔹 Episode 18: Autonomous Vector Database Migration & Hybrid RAG
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 17 (7:30 PM IST)
+* **Title**: `Migrating Vector Databases Without 5-Hour Outages! 🧠 #Shorts`
+* **Description**:
+  ```text
+  Upgrading embedding models in production RAG systems breaks dimension bounds. Watch an autonomous agent provision shadow collections, dual-write vectors, and swap aliases atomically.
+  Part 18 of 20: Autonomous Developer Workflows Series
+  #VectorDB #AI #RAG #Qdrant #Pinecone #Python #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`18-hybrid-rag-vector-migration/`](../18-hybrid-rag-vector-migration/)
+
+---
+
+### 🔹 Episode 19: Autonomous Webhook Gateway & Cryptographic Signature Guard
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 18 (7:30 PM IST)
+* **Title**: `Stop Ingesting Webhooks Like an Amateur! 🛑 #Shorts`
+* **Description**:
+  ```text
+  String comparisons in webhook verification leak timing signals that expose your private keys. Deploy an autonomous HMAC-SHA256 sentinel that blocks replay attacks and offloads tasks in 2ms.
+  Part 19 of 20: Autonomous Developer Workflows Series
+  #CyberSecurity #AppSec #Webhooks #Python #Stripe #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`19-webhook-gateway-signature-guard/`](../19-webhook-gateway-signature-guard/)
+
+---
+
+### 🔹 Episode 20 (Grand Finale): The Autonomous Developer Singularity
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 19 (7:30 PM IST)
+* **Title**: `The 2026 Autonomous Developer Stack Is Here! 🚀 #Shorts`
+* **Description**:
+  ```text
+  Still deploying code manually in 2026? Watch an autonomous multi-agent fleet take over an entire engineering org in 35 seconds. The Grand Finale of Autonomous Developer Workflows.
+  Part 20 of 20: Autonomous Developer Workflows Series
+  #AutonomousAgents #DevOps #Engineering #AI #Python #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`20-autonomous-developer-singularity/`](../20-autonomous-developer-singularity/)
+
+---
+
 ## 🎬 Long-Form Master Tutorials
 
 ### 🎥 Master Video 1: The Complete Masterclass (Episodes 01 - 05)
@@ -263,3 +338,8 @@
 * **Video File**: `Master_Tutorial_3_Self_Operating_Cloud_Infrastructure.mp4` (Duration: `4:35`)
 * **Coverage**: Kubernetes OOM auto-remediation, FinOps cloud cost-killing, OpenAPI contract drift, red-team security pentesting, multi-model LLM fallback gateways.
 * **Upload Package & Script**: [`metadata/master-video-3-production-script.md`](master-video-3-production-script.md)
+
+### 🎥 Master Video 4: The Grand Finale — Autonomous Developer Singularity (Episodes 16 - 20)
+* **Video File**: `Master_Tutorial_4_Autonomous_Developer_Singularity.mp4` (Duration: `5:15`)
+* **Coverage**: Dead-letter queue saga compensation, OpenTelemetry distributed tracing bottleneck isolation, live zero-downtime vector DB migrations, constant-time HMAC webhook verification, and 5-pillar multi-agent fleet convergence.
+* **Upload Package & Script**: [`metadata/master-video-4-production-script.md`](master-video-4-production-script.md)

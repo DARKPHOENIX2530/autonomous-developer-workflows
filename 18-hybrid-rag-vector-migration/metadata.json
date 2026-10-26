@@ -1,0 +1,18 @@
+{
+  "episode": 18,
+  "series": "Autonomous Developer Workflows",
+  "title": "Upgrading Embedding Models? Zero-Downtime Vector Migrations. #Shorts",
+  "description": "Never take down your RAG search application when upgrading embeddings. Deploy an autonomous vector database agent that detects 768 to 1536 dimension drift, provisions shadow collections, and performs atomic alias swaps.\nPart 18 of 20: Autonomous Developer Workflows Series\n\nGrab the vector database migration code here:\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows\n\n#AI #RAG #VectorDB #Embeddings #Python #Pinecone #Shorts",
+  "tags": [
+    "vector database migration",
+    "embedding model upgrade",
+    "hybrid rag bm25",
+    "qdrant pinecone migration",
+    "python ai search",
+    "zero downtime vector",
+    "developer workflows"
+  ],
+  "category": "Science & technology",
+  "audience": "No, it's not made for kids",
+  "pinned_comment": "Grab the complete autonomous vector DB migration & hybrid RAG router here 👇\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows"
+}

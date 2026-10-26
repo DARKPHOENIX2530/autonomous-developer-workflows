@@ -1,0 +1,38 @@
+[
+  {
+    "message_id": "msg_dlq_001",
+    "topic": "billing.payment.settlement",
+    "failure_reason": "ValidationError: amount must be positive",
+    "timestamp": 1729948120,
+    "payload": {
+      "transaction_id": "tx_99214a",
+      "user_id": "usr_8812",
+      "amount": -149.99,
+      "currency": "USD"
+    }
+  },
+  {
+    "message_id": "msg_dlq_002",
+    "topic": "billing.payment.settlement",
+    "failure_reason": "MissingField: currency not specified",
+    "timestamp": 1729948135,
+    "payload": {
+      "transaction_id": "tx_99214b",
+      "user_id": "usr_8813",
+      "amount": 49.00,
+      "currency": null
+    }
+  },
+  {
+    "message_id": "msg_dlq_003",
+    "topic": "user.provisioning.fleet",
+    "failure_reason": "DuplicateTransaction: IdempotencyKeyConflict",
+    "timestamp": 1729948148,
+    "payload": {
+      "transaction_id": "tx_99214c",
+      "user_id": "usr_8814",
+      "idempotency_key": "idem_dup_4421",
+      "status": "pending_replay"
+    }
+  }
+]

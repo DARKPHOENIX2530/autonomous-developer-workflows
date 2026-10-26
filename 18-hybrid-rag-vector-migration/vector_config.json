@@ -1,0 +1,14 @@
+{
+  "active_collection": {
+    "name": "enterprise_knowledge_v1",
+    "embedding_model": "text-embedding-ada-002",
+    "dimension": 768,
+    "distance_metric": "cosine",
+    "total_vectors": 850000
+  },
+  "target_model": {
+    "name": "text-embedding-3-large",
+    "dimension": 1536,
+    "hybrid_bm25_enabled": true
+  }
+}
