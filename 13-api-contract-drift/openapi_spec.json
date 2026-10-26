@@ -1,0 +1,35 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "System Zero Developer Billing API",
+    "version": "2.4.0"
+  },
+  "paths": {
+    "/api/v1/billing/subscriptions": {
+      "get": {
+        "summary": "List active customer subscriptions",
+        "responses": {
+          "200": {
+            "description": "Subscription details",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["id", "customerId", "planTier", "status", "renewalDate", "isMfaEnforced"],
+                  "properties": {
+                    "id": { "type": "string" },
+                    "customerId": { "type": "string" },
+                    "planTier": { "type": "string", "enum": ["free", "pro", "enterprise_fleet"] },
+                    "status": { "type": "string", "enum": ["active", "past_due", "canceled"] },
+                    "renewalDate": { "type": "string", "format": "date-time" },
+                    "isMfaEnforced": { "type": "boolean" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

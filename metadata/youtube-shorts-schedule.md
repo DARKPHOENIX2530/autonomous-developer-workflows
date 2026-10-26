@@ -172,6 +172,81 @@
 
 ---
 
+### 🔹 Episode 11: Autonomous Kubernetes CrashLoopBackOff & OOM Remediator
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 10 (7:30 PM IST)
+* **Title**: `CrashLoopBackOff? Autonomous K8s Auto-Remediation. #Shorts`
+* **Description**:
+  ```text
+  Stop getting paged for OOMKilled pods at 2 AM. Autonomous agents listen to Kubelet telemetry, calculate new cgroup memory envelopes, patch deployment YAMLs, and trigger zero-downtime rolling restarts.
+  Part 11 of 20: Autonomous Developer Workflows Series
+  #Kubernetes #DevOps #Docker #AIOps #Cloud #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`11-kubernetes-auto-remediation/`](../11-kubernetes-auto-remediation/)
+
+---
+
+### 🔹 Episode 12: Autonomous Cloud FinOps & Cost-Killer Agent
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 11 (7:30 PM IST)
+* **Title**: `Cloud Bills Exploding? Deploy Autonomous Cost-Killers. #Shorts`
+* **Description**:
+  ```text
+  Stop setting money on fire on AWS and GCP. Deploy an autonomous FinOps agent that discovers idle staging clusters, deletes orphaned storage disks, and resizes runaway serverless lambdas.
+  Part 12 of 20: Autonomous Developer Workflows Series
+  #AWS #Cloud #FinOps #DevOps #Python #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`12-cloud-cost-killer/`](../12-cloud-cost-killer/)
+
+---
+
+### 🔹 Episode 13: Autonomous API Contract Drift & TypeScript SDK Generator
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 12 (7:30 PM IST)
+* **Title**: `Backend Renamed an API Key? Autonomous Contract Guard. #Shorts`
+* **Description**:
+  ```text
+  Never let a backend field rename break your frontend UI again. Deploy an autonomous contract guard that compares OpenAPI specifications against TypeScript interfaces and regenerates type-safe clients automatically.
+  Part 13 of 20: Autonomous Developer Workflows Series
+  #TypeScript #OpenAPI #WebDev #API #FullStack #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`13-api-contract-drift/`](../13-api-contract-drift/)
+
+---
+
+### 🔹 Episode 14: Autonomous Adversarial Security Pentester & Red-Team Agent
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 13 (7:30 PM IST)
+* **Title**: `Hack Your Own APIs Before Criminals Do. #Shorts`
+* **Description**:
+  ```text
+  Deploy autonomous red-team agents to attack your APIs before release. Probing for IDOR data leaks, JWT signature stripping, CORS wildcards, and LLM prompt injections.
+  Part 14 of 20: Autonomous Developer Workflows Series
+  #CyberSecurity #AppSec #PenTesting #Python #DevSecOps #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`14-adversarial-security-pentester/`](../14-adversarial-security-pentester/)
+
+---
+
+### 🔹 Episode 15: Autonomous Multi-Model Routing & LLM Fallback Gateway
+* **Status**: 📦 Mastered & Ready for Upload
+* **Target Schedule**: Following Episode 14 (7:30 PM IST)
+* **Title**: `Anthropic 429? Multi-Model LLM Fallback Gateways. #Shorts`
+* **Description**:
+  ```text
+  Never let an OpenAI or Anthropic 429 rate limit take down your AI application. Deploy an autonomous multi-model gateway with sub-5ms failover routing across Claude, Gemini Flash, and Groq.
+  Part 15 of 20: Autonomous Developer Workflows Series
+  #AI #LLM #OpenAI #Claude #Groq #Python #Shorts
+  (https://github.com/DARKPHOENIX2530/autonomous-developer-workflows)
+  ```
+* **Associated Code**: [`15-multi-model-fallback-gateway/`](../15-multi-model-fallback-gateway/)
+
+---
+
 ## 🎬 Long-Form Master Tutorials
 
 ### 🎥 Master Video 1: The Complete Masterclass (Episodes 01 - 05)
@@ -183,3 +258,8 @@
 * **Video File**: `Master_Tutorial_2_Autonomous_Engineering_Fleets.mp4` (Duration: `4:35`)
 * **Coverage**: 3 AM production hotfixes, AI coding tools benchmark, multi-agent PR review fleets, zero-downtime DB migrations, autonomous E2E QA testing.
 * **Upload Package & Script**: [`metadata/master-video-2-production-script.md`](master-video-2-production-script.md)
+
+### 🎥 Master Video 3: Self-Operating Cloud Infrastructure (Episodes 11 - 15)
+* **Video File**: `Master_Tutorial_3_Self_Operating_Cloud_Infrastructure.mp4` (Duration: `4:35`)
+* **Coverage**: Kubernetes OOM auto-remediation, FinOps cloud cost-killing, OpenAPI contract drift, red-team security pentesting, multi-model LLM fallback gateways.
+* **Upload Package & Script**: [`metadata/master-video-3-production-script.md`](master-video-3-production-script.md)

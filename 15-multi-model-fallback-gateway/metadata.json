@@ -1,0 +1,18 @@
+{
+  "episode": 15,
+  "series": "Autonomous Developer Workflows",
+  "title": "Anthropic 429? Multi-Model LLM Fallback Gateways. #Shorts",
+  "description": "Never let an OpenAI or Anthropic 429 rate limit take down your AI application. Deploy an autonomous multi-model gateway with sub-5ms failover routing across Claude, Gemini Flash, and Groq.\nPart 15 of 20: Autonomous Developer Workflows Series\n\nGrab the multi-model gateway script here:\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows\n\n#AI #LLM #OpenAI #Claude #Groq #Python #Shorts",
+  "tags": [
+    "multi model fallback",
+    "llm routing gateway",
+    "anthropic 429 rate limit",
+    "groq llama 3",
+    "freellm api",
+    "high availability ai",
+    "python ai agents"
+  ],
+  "category": "Science & technology",
+  "audience": "No, it's not made for kids",
+  "pinned_comment": "Grab the complete autonomous multi-model fallback gateway code here 👇\nhttps://github.com/DARKPHOENIX2530/autonomous-developer-workflows"
+}

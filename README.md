@@ -1,7 +1,7 @@
 # 🚀 Autonomous Developer Workflows (System Zero Series)
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Series Status](https://img.shields.io/badge/Series-Master%20Tutorials%201%20%26%202%20%2B%20Shorts%2001--10-brightgreen.svg)](metadata/youtube-shorts-schedule.md)
+[![Series Status](https://img.shields.io/badge/Series-Master%20Tutorials%201%2C%202%2C%203%20%2B%20Shorts%2001--15-brightgreen.svg)](metadata/youtube-shorts-schedule.md)
 [![Cloud Framework](https://img.shields.io/badge/Cloud-freebuff.com-orange.svg)](https://freebuff.com)
 [![Agent Docs](https://img.shields.io/badge/Docs-systemzero.dev-blueviolet.svg)](https://systemzero.dev)
 
@@ -44,6 +44,23 @@ Moving beyond autocomplete to orchestrate multi-agent fleets across CI/CD, datab
 
 ---
 
+### 🎥 Master Tutorial 3: Self-Operating Cloud Infrastructure (~4:35)
+Scaling beyond local machines to autonomous cloud systems that auto-remediate Kubernetes crashes, slash multi-cloud waste, prevent API drift, red-team APIs, and cascade multi-model LLMs.
+
+| Timestamp | Chapter Title | Core Architecture | Code Directory |
+| :---: | :--- | :--- | :--- |
+| **0:00** | **The Self-Operating Cloud Paradigm** | Shifting from on-call alarms to self-healing infra | Architecture Overview |
+| **0:35** | **Kubernetes Auto-Remediation** | Kubelet failure telemetry & OOMKilled cgroup auto-patch | [`11-kubernetes-auto-remediation/`](11-kubernetes-auto-remediation/) |
+| **1:25** | **FinOps Cloud Cost-Killers** | Idle staging sleep, unattached volume purge & Lambda tuning | [`12-cloud-cost-killer/`](12-cloud-cost-killer/) |
+| **2:10** | **API Contract Drift & TypeScript SDK** | OpenAPI 3.1.0 vs frontend type diff & client generation | [`13-api-contract-drift/`](13-api-contract-drift/) |
+| **2:55** | **Adversarial Red-Team Pentesting** | Dynamic BOLA/IDOR, JWT alg-none & prompt injection probes | [`14-adversarial-security-pentester/`](14-adversarial-security-pentester/) |
+| **3:45** | **Multi-Model Fallback Gateways** | Sub-5ms cascading failover across Claude, Gemini & Groq | [`15-multi-model-fallback-gateway/`](15-multi-model-fallback-gateway/) |
+| **4:25** | **Architecture Walkthrough & Roadmap** | Complete repository walkthrough & finale preview | Root / [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech) |
+
+👉 **Master Video 3 Production Script & Release Pack**: [`metadata/master-video-3-production-script.md`](metadata/master-video-3-production-script.md)
+
+---
+
 ## 📱 YouTube Shorts Guide (1:1 Match with [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech))
 
 | Part | Live Episode Title | Published Date | YouTube Link | Code Directory |
@@ -58,6 +75,11 @@ Moving beyond autocomplete to orchestrate multi-agent fleets across CI/CD, datab
 | **08** | **Stop Reviewing PRs Manually. Deploy Agent Fleets.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-08) | [`08-multi-agent-code-review/`](08-multi-agent-code-review/) |
 | **09** | **Zero-Downtime Database Migrations with AI Agents.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-09) | [`09-autonomous-database-migrations/`](09-autonomous-database-migrations/) |
 | **10** | **Autonomous End-to-End Browser & QA Agents.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-10) | [`10-autonomous-browser-testing/`](10-autonomous-browser-testing/) |
+| **11** | **CrashLoopBackOff? Autonomous K8s Auto-Remediation.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-11) | [`11-kubernetes-auto-remediation/`](11-kubernetes-auto-remediation/) |
+| **12** | **Cloud Bills Exploding? Deploy Autonomous Cost-Killers.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-12) | [`12-cloud-cost-killer/`](12-cloud-cost-killer/) |
+| **13** | **Backend Renamed an API Key? Autonomous Contract Guard.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-13) | [`13-api-contract-drift/`](13-api-contract-drift/) |
+| **14** | **Hack Your Own APIs Before Criminals Do.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-14) | [`14-adversarial-security-pentester/`](14-adversarial-security-pentester/) |
+| **15** | **Anthropic 429? Multi-Model LLM Fallback Gateways.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-15) | [`15-multi-model-fallback-gateway/`](15-multi-model-fallback-gateway/) |
 
 👉 **Complete Copy-Ready Shorts Upload Metadata**: [`metadata/youtube-shorts-schedule.md`](metadata/youtube-shorts-schedule.md)
 
@@ -128,6 +150,36 @@ cd autonomous-developer-workflows
   ```bash
   cd 10-autonomous-browser-testing
   python autonomous_e2e_tester.py
+  ```
+
+* **Part 11 (Kubernetes Pod Crash Auto-Remediator)**:
+  ```bash
+  cd 11-kubernetes-auto-remediation
+  python k8s_remediator.py
+  ```
+
+* **Part 12 (Autonomous Cloud Cost-Killer & FinOps Agent)**:
+  ```bash
+  cd 12-cloud-cost-killer
+  python cost_killer.py
+  ```
+
+* **Part 13 (API Contract Drift Guard & TypeScript SDK Generator)**:
+  ```bash
+  cd 13-api-contract-drift
+  python contract_guard.py
+  ```
+
+* **Part 14 (Adversarial Security Pentester & Red-Team Sentinel)**:
+  ```bash
+  cd 14-adversarial-security-pentester
+  python red_team_pentester.py
+  ```
+
+* **Part 15 (Multi-Model Routing & LLM Fallback Gateway)**:
+  ```bash
+  cd 15-multi-model-fallback-gateway
+  python llm_gateway.py
   ```
 
 ---
