@@ -1,6 +1,7 @@
 """
-Video 4: Never Manually Scaffold Next.js Again
-Part 4 of 20: Autonomous Developer Workflows Series
+Video 3: System Zero Autonomous Full Stack (Never Manually Scaffold Next.js Again)
+Part 3 of 20: Autonomous Developer Workflows Series
+Published on YouTube: Oct 17, 2026 (https://youtu.be/guFYzxngsXE)
 Author: Autonomous Developer Workflows (System Zero)
 
 Autonomous Scaffolding & Local Project Generator for Next.js 14 + Tailwind CSS.
@@ -111,7 +112,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <main className="flex min-h-screen flex-col items-center justify-center p-8">
       <div className="max-w-xl text-center space-y-4">
         <div className="inline-block px-3 py-1 bg-cyan-950 text-cyan-400 rounded-full text-xs font-mono uppercase tracking-wider">
-          Part 4: Autonomous Local Scaffolding
+          Part 3: Autonomous Full Stack Scaffolding
         </div>
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl text-white">
           {project_name}
@@ -152,7 +153,7 @@ def main():
 
     print("=" * 65)
     print(" 🚀 Autonomous Next.js 14 + Tailwind Scaffolder")
-    print("    Local Scaffolding Pipeline (System Zero)")
+    print("    Part 3: System Zero Autonomous Full Stack")
     print("=" * 65)
 
     scaffold_nextjs_project(args.out, args.name)

@@ -1,6 +1,7 @@
 """
-Video 5: Stop Babysitting Background Tasks
-Part 5 of 20: Autonomous Developer Workflows Series
+Video 4: System Zero Autonomous Pipelines (Stop Babysitting Background Tasks)
+Part 4 of 20: Autonomous Developer Workflows Series
+Published on YouTube: Oct 19, 2026 (https://youtu.be/qauvXWbE34s)
 Cloud Framework: freebuff.com
 Author: Autonomous Developer Workflows (System Zero)
 
@@ -63,7 +64,7 @@ class CloudWorkerPipeline:
 def main():
     print("=" * 65)
     print(" 🚀 Autonomous Background Pipeline Orchestrator")
-    print("    'Stop Babysitting Background Tasks'")
+    print("    Part 4: System Zero Autonomous Pipelines")
     print("    Cloud Framework: freebuff.com")
     print("=" * 65)
 

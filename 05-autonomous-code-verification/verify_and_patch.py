@@ -1,6 +1,7 @@
 """
-Video 3: Stop Copy-Pasting Code in 2026
-Part 3 of 20: Autonomous Developer Workflows Series
+Video 5: System Zero Developer Intelligence (Stop Copy-Pasting Code in 2026)
+Part 5 of 20: Autonomous Developer Workflows Series
+Published on YouTube: Oct 21, 2026 (https://youtu.be/jzm37BaWeKI)
 Agent Workflows: systemzero.dev
 Author: Autonomous Developer Workflows (System Zero)
 
@@ -63,6 +64,7 @@ def self_healing_loop(target_file: str, max_attempts: int = 3):
     """Executes the autonomous loop: Test -> Detect -> Patch -> Re-test."""
     print("=" * 65)
     print(" 🚀 Autonomous Verification Loop (Stop Copy-Pasting in 2026)")
+    print("    Part 5: System Zero Developer Intelligence")
     print("    Agent Workflows: systemzero.dev")
     print("=" * 65)
 

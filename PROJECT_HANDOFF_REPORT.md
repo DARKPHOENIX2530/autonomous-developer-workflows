@@ -6,12 +6,12 @@
 
 ## 1. Executive Summary & Mission
 
-This repository contains the complete engineering assets, code scripts, architectural blueprints, and YouTube upload metadata for the **Autonomous Developer Workflows Series** (under the **System Zero** ecosystem).
+This repository contains the complete engineering assets, code scripts, architectural blueprints, and YouTube upload metadata for the **Autonomous Developer Workflows Series** (under the **System Zero** ecosystem on [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech)).
 
 * **Repository Root**: `C:\Users\Acer\.gemini\antigravity\scratch\autonomous-developer-workflows`
 * **GitHub Remote**: `https://github.com/DARKPHOENIX2530/autonomous-developer-workflows`
 * **Git Status**: Fully initialized, modularized, tested on Windows/Linux, and committed on branch `main`.
-* **Primary Technologies**: Python 3.11+, Next.js 14, Tailwind CSS, Freebuff Cloud Compute (`freebuff.com`), System Zero (`systemzero.dev`), Pytest, Google Antigravity, and Claude Code.
+* **YouTube Match**: 100% 1:1 alignment between folder numbers and live published episodes on YouTube.
 
 ---
 
@@ -28,37 +28,37 @@ autonomous-developer-workflows/
 │   ├── master-tutorial-upload-pack.md            # Master Tutorial YouTube Title, Timestamps, Tags, Description
 │   └── youtube-shorts-schedule.md                # Copy-paste metadata for YouTube Studio (Episodes 1-7)
 │
-├── 01-local-ram-overload/                        # Part 1: Local RAM Overload (8GB RAM is Dead)
+├── 01-local-ram-overload/                        # Part 1: Local RAM Overload (8GB RAM is Dead) - Oct 14
 │   ├── ram_benchmark_cloud_offload.py            # Local thermal/RAM benchmark vs Freebuff cloud offload
 │   └── README.md                                 # Technical documentation & benchmark comparison table
 │
-├── 02-claude-vs-antigravity/                     # Part 2: Claude Code vs Google Antigravity
+├── 02-claude-vs-antigravity/                     # Part 2: Claude Code vs Google Antigravity - Oct 16
 │   ├── comparison_matrix.md                      # Terminal CLI vs Visual UI canvas deep comparison
 │   ├── agent_setup.yaml                          # System Zero agent orchestration YAML template
 │   └── README.md                                 # Architecture & hybrid agent workflow guide
 │
-├── 03-autonomous-code-verification/              # Part 3: Stop Copy-Pasting Code in 2026
-│   ├── verify_and_patch.py                       # Self-healing test runner & autonomous patch loop
-│   ├── sample_broken_app.py                      # Interactive buggy demo script for viewers
-│   └── README.md                                 # Verification engine and self-healing loop guide
-│
-├── 04-nextjs-autonomous-scaffolding/             # Part 4: Never Manually Scaffold Next.js Again
+├── 03-nextjs-autonomous-scaffolding/             # Part 3: Autonomous Full Stack Scaffolding - Oct 17
 │   ├── scaffold_and_deploy.py                    # 1-click autonomous Next.js 14 + Tailwind scaffolder
 │   ├── scaffold_nextjs_tailwind.sh               # Bash alternative for Linux/macOS
 │   └── README.md                                 # Scaffolding instructions & Vercel deployment docs
 │
-├── 05-autonomous-background-pipelines/           # Part 5: Stop Babysitting Background Tasks
+├── 04-autonomous-background-pipelines/           # Part 4: Autonomous Background Pipelines - Oct 19
 │   ├── autonomous_pipeline_orchestrator.py       # Resilient 429 backoff retry & cloud worker orchestrator
 │   └── README.md                                 # Background queue & cloud disconnectability architecture
 │
-├── 06-autonomous-production-hotfixes/            # Part 6: Autonomous Production Hotfixes at 3 AM
+├── 05-autonomous-code-verification/              # Part 5: Developer Intelligence (Stop Copy-Pasting) - Oct 21
+│   ├── verify_and_patch.py                       # Self-healing test runner & autonomous patch loop
+│   ├── sample_broken_app.py                      # Interactive buggy demo script for viewers
+│   └── README.md                                 # Verification engine and self-healing loop guide
+│
+├── 06-autonomous-production-hotfixes/            # Part 6: Autonomous Production Hotfixes at 3 AM (In Queue)
 │   ├── broken_service.py                         # Production payment settlement service with zero-split bug
 │   ├── test_service.py                           # 5/5 Pytest assertions covering discount & split edge cases
 │   ├── server_logs.log                           # Simulated 3:00 AM HTTP 500 error log & traceback
 │   ├── hotfix_and_pr.py                          # Incident sentry, AST patch injector & auto-PR script
 │   └── README.md                                 # Production hotfix architecture & MTTR benchmarks
 │
-└── 07-top-3-ai-coding-tools/                     # Part 7: Top 3 AI Coding Tools in 2026 (Ranked)
+└── 07-top-3-ai-coding-tools/                     # Part 7: Top 3 AI Coding Tools in 2026 (Ranked) (In Queue)
     ├── compare_tools.py                          # Benchmarking matrix CLI script
     ├── tools_matrix.md                           # Comprehensive comparison table (Antigravity vs Claude vs Cursor)
     ├── metadata.json                             # YouTube upload metadata & pinned comment
@@ -67,15 +67,15 @@ autonomous-developer-workflows/
 
 ---
 
-## 3. Module Breakdown & Verification Status
+## 3. 1:1 Mapping with YouTube Channel (@SystemZeroTech)
 
-| Module | Core File | Verification Status | Notes |
-| :--- | :--- | :--- | :--- |
-| **Master Tutorial** | `metadata/master-tutorial-upload-pack.md` | Verified | Full 4:37 timestamps and SEO tags ready |
-| **Part 1** | `01-local-ram-overload/ram_benchmark_cloud_offload.py` | Passed (Code 0) | Traces memory allocations cleanly |
-| **Part 2** | `02-claude-vs-antigravity/agent_setup.yaml` | Valid YAML | Architecture configuration verified |
-| **Part 3** | `03-autonomous-code-verification/verify_and_patch.py` | Passed (Code 0) | Self-heals zero division and type errors |
-| **Part 4** | `04-nextjs-autonomous-scaffolding/scaffold_and_deploy.py` | Passed (Code 0) | Local scaffolding with optional deploy |
-| **Part 5** | `05-autonomous-background-pipelines/autonomous_pipeline_orchestrator.py` | Passed (Code 0) | Auto-recovers from 429 quota spikes |
-| **Part 6** | `06-autonomous-production-hotfixes/hotfix_and_pr.py` | Passed (Code 0) | Injects guard clause; 5/5 Pytest passing |
-| **Part 7** | `07-top-3-ai-coding-tools/compare_tools.py` | Passed (Code 0) | Clean ranking output verified |
+| Folder | Live YouTube Episode Title | Published Date | YouTube Link | Status |
+| :--- | :--- | :---: | :---: | :--- |
+| `01-local-ram-overload/` | **8GB RAM is Dead. Do This Instead. #Shorts** | Oct 14, 2026 | [Watch](https://youtu.be/9CvZQvSrL7Q) | 🟢 Live |
+| `02-claude-vs-antigravity/` | **Claude Code vs Google Antigravity. #Shorts** | Oct 16, 2026 | [Watch](https://youtu.be/O9cNljLiM60) | 🟢 Live |
+| `03-nextjs-autonomous-scaffolding/` | **System Zero Autonomous Full Stack. #Shorts** | Oct 17, 2026 | [Watch](https://youtu.be/guFYzxngsXE) | 🟢 Live |
+| `04-autonomous-background-pipelines/` | **System Zero Autonomous Pipelines** | Oct 19, 2026 | [Watch](https://youtu.be/qauvXWbE34s) | 🟢 Live |
+| `05-autonomous-code-verification/` | **System Zero Developer Intelligence. #Shorts** | Oct 21, 2026 | [Watch](https://youtu.be/jzm37BaWeKI) | 🟢 Live |
+| `06-autonomous-production-hotfixes/` | **Autonomous Production Hotfixes at 3 AM. #Shorts** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-06) | 📦 Ready to Upload |
+| `07-top-3-ai-coding-tools/` | **Top 3 AI Coding Tools in 2026 (Ranked) #Shorts** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-07) | 📦 Ready to Upload |
+| **Master Tutorial** | **Autonomous Developer Workflows: The Complete Masterclass** | In Queue | [Ready](metadata/master-tutorial-upload-pack.md) | 📦 Ready to Upload |

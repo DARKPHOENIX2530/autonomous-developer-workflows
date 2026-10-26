@@ -19,24 +19,24 @@ The comprehensive deep dive combining the core autonomous developer workflows in
 | :---: | :--- | :--- | :--- |
 | **0:00** | **The 8GB RAM Bottleneck** | Thermal throttling vs remote execution | [`01-local-ram-overload/`](01-local-ram-overload/) |
 | **1:05** | **Claude Code vs Google Antigravity** | Terminal speed vs Visual UI Canvas loops | [`02-claude-vs-antigravity/`](02-claude-vs-antigravity/) |
-| **2:18** | **Autonomous Verification Loop** | Test failure -> AST patch -> instant green | [`03-autonomous-code-verification/`](03-autonomous-code-verification/) |
-| **3:02** | **Local Project Scaffolder** | Next.js 14 + Tailwind zero-boilerplate generator | [`04-nextjs-autonomous-scaffolding/`](04-nextjs-autonomous-scaffolding/) |
-| **3:32** | **Autonomous Background Pipelines** | 429 backoff retry & cloud worker orchestration | [`05-autonomous-background-pipelines/`](05-autonomous-background-pipelines/) |
+| **2:18** | **Autonomous Verification Loop** | Test failure -> AST patch -> instant green | [`05-autonomous-code-verification/`](05-autonomous-code-verification/) |
+| **3:02** | **Local Project Scaffolder** | Next.js 14 + Tailwind zero-boilerplate generator | [`03-nextjs-autonomous-scaffolding/`](03-nextjs-autonomous-scaffolding/) |
+| **3:32** | **Autonomous Background Pipelines** | 429 backoff retry & cloud worker orchestration | [`04-autonomous-background-pipelines/`](04-autonomous-background-pipelines/) |
 | **4:09** | **Production Architecture Ecosystem** | End-to-end repository & tools walkthrough | Root / [systemzero.dev](https://systemzero.dev) |
 
 👉 **Full Copy-Ready Master Tutorial YouTube Metadata**: [`metadata/master-tutorial-upload-pack.md`](metadata/master-tutorial-upload-pack.md)
 
 ---
 
-## 📱 YouTube Shorts Guide (Episodes 1 - 7 on [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech))
+## 📱 YouTube Shorts Guide (1:1 Match with [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech))
 
 | Part | Live Episode Title | Published Date | YouTube Link | Code Directory |
-| :---: | :--- | :--- | :---: | :--- |
+| :---: | :--- | :---: | :---: | :--- |
 | **01** | **8GB RAM is Dead. Do This Instead.** | Oct 14, 2026 | [Watch](https://youtu.be/9CvZQvSrL7Q) | [`01-local-ram-overload/`](01-local-ram-overload/) |
 | **02** | **Claude Code vs Google Antigravity.** | Oct 16, 2026 | [Watch](https://youtu.be/O9cNljLiM60) | [`02-claude-vs-antigravity/`](02-claude-vs-antigravity/) |
-| **03** | **System Zero Autonomous Full Stack.** | Oct 17, 2026 | [Watch](https://youtu.be/guFYzxngsXE) | [`04-nextjs-autonomous-scaffolding/`](04-nextjs-autonomous-scaffolding/) |
-| **04** | **System Zero Autonomous Pipelines** | Oct 19, 2026 | [Watch](https://youtu.be/qauvXWbE34s) | [`05-autonomous-background-pipelines/`](05-autonomous-background-pipelines/) |
-| **05** | **System Zero Developer Intelligence.** | Oct 21, 2026 | [Watch](https://youtu.be/jzm37BaWeKI) | [`05-autonomous-background-pipelines/`](05-autonomous-background-pipelines/) |
+| **03** | **System Zero Autonomous Full Stack.** | Oct 17, 2026 | [Watch](https://youtu.be/guFYzxngsXE) | [`03-nextjs-autonomous-scaffolding/`](03-nextjs-autonomous-scaffolding/) |
+| **04** | **System Zero Autonomous Pipelines** | Oct 19, 2026 | [Watch](https://youtu.be/qauvXWbE34s) | [`04-autonomous-background-pipelines/`](04-autonomous-background-pipelines/) |
+| **05** | **System Zero Developer Intelligence.** | Oct 21, 2026 | [Watch](https://youtu.be/jzm37BaWeKI) | [`05-autonomous-code-verification/`](05-autonomous-code-verification/) |
 | **06** | **Autonomous Production Hotfixes at 3 AM.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-06) | [`06-autonomous-production-hotfixes/`](06-autonomous-production-hotfixes/) |
 | **07** | **Top 3 AI Coding Tools in 2026.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-07) | [`07-top-3-ai-coding-tools/`](07-top-3-ai-coding-tools/) |
 
@@ -65,14 +65,20 @@ cd autonomous-developer-workflows
 
 * **Part 3 (Autonomous Next.js 14 Local Scaffolder)**:
   ```bash
-  cd 04-nextjs-autonomous-scaffolding
+  cd 03-nextjs-autonomous-scaffolding
   python scaffold_and_deploy.py --name my-app
   ```
 
-* **Part 4 & 5 (Background Task Rate Limit Orchestration)**:
+* **Part 4 (Background Task Rate Limit Orchestration)**:
   ```bash
-  cd 05-autonomous-background-pipelines
+  cd 04-autonomous-background-pipelines
   python autonomous_pipeline_orchestrator.py
+  ```
+
+* **Part 5 (Autonomous Verification & Self-Healing Patch)**:
+  ```bash
+  cd 05-autonomous-code-verification
+  python verify_and_patch.py --target sample_broken_app.py
   ```
 
 * **Part 6 (Autonomous Production Incident Response)**:

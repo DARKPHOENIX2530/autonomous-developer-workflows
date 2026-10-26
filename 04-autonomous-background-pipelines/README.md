@@ -1,8 +1,9 @@
-# 🚀 Part 5: Stop Babysitting Background Tasks
+# 🚀 Part 4: System Zero Autonomous Pipelines (Stop Babysitting Background Tasks)
 
-> **Autonomous Developer Workflows Series - Part 5 of 20**  
+> **Autonomous Developer Workflows Series - Part 4 of 20**  
+> **YouTube Video**: [System Zero Autonomous Pipelines](https://youtu.be/qauvXWbE34s)  
+> **Published**: Oct 19, 2026 | 7:30 PM IST  
 > **Cloud Framework**: [freebuff.com](https://freebuff.com)  
-> **Schedule**: Wednesday (Week 2), 7:30 PM IST
 
 ---
 

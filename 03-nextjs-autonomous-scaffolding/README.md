@@ -1,8 +1,9 @@
-# 🚀 Part 4: Never Manually Scaffold Next.js Again
+# 🚀 Part 3: System Zero Autonomous Full Stack (Never Manually Scaffold Next.js Again)
 
-> **Autonomous Developer Workflows Series - Part 4 of 20**  
+> **Autonomous Developer Workflows Series - Part 3 of 20**  
+> **YouTube Video**: [System Zero Autonomous Full Stack #Shorts](https://youtu.be/guFYzxngsXE)  
+> **Published**: Oct 17, 2026 | 7:30 PM IST  
 > **Deployment Pipeline**: Optional Vercel CI/CD  
-> **Schedule**: Monday, 7:30 PM IST
 
 ---
 

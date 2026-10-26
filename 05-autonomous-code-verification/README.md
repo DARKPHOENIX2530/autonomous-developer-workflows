@@ -1,8 +1,9 @@
-# 🚀 Part 3: Stop Copy-Pasting Code in 2026
+# 🚀 Part 5: System Zero Developer Intelligence (Stop Copy-Pasting Code in 2026)
 
-> **Autonomous Developer Workflows Series - Part 3 of 20**  
+> **Autonomous Developer Workflows Series - Part 5 of 20**  
+> **YouTube Video**: [System Zero Developer Intelligence #Shorts](https://youtu.be/jzm37BaWeKI)  
+> **Published**: Oct 21, 2026 | 7:30 PM IST  
 > **Agent Workflows**: [systemzero.dev](https://systemzero.dev)  
-> **Schedule**: Saturday, 7:30 PM IST
 
 ---
 

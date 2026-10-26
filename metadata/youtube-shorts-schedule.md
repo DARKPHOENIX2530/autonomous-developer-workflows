@@ -53,7 +53,7 @@
 
   #FullStack #NextJS #Developer #Shorts
   ```
-* **Associated Code**: [`04-nextjs-autonomous-scaffolding/`](../04-nextjs-autonomous-scaffolding/) & [`03-autonomous-code-verification/`](../03-autonomous-code-verification/)
+* **Associated Code**: [`03-nextjs-autonomous-scaffolding/`](../03-nextjs-autonomous-scaffolding/)
 
 ---
 
@@ -72,7 +72,7 @@
 
   #Python #Automation #DevOps #Shorts
   ```
-* **Associated Code**: [`05-autonomous-background-pipelines/`](../05-autonomous-background-pipelines/)
+* **Associated Code**: [`04-autonomous-background-pipelines/`](../04-autonomous-background-pipelines/)
 
 ---
 
@@ -91,7 +91,7 @@
 
   #Backend #Architecture #FastAPI #Shorts
   ```
-* **Associated Code**: [`05-autonomous-background-pipelines/`](../05-autonomous-background-pipelines/) & [`02-claude-vs-antigravity/`](../02-claude-vs-antigravity/)
+* **Associated Code**: [`05-autonomous-code-verification/`](../05-autonomous-code-verification/)
 
 ---
 
