@@ -1,11 +1,10 @@
-﻿"""
+"""
 Video 4: Never Manually Scaffold Next.js Again
 Part 4 of 20: Autonomous Developer Workflows Series
-Deployment Pipeline: vercel.com
 Author: Autonomous Developer Workflows (System Zero)
 
-Autonomous Scaffolding & Cloud Deployment Pipeline for Next.js 14 + Tailwind CSS.
-Eliminates 30 minutes of repetitive manual configuration and immediately hooks into Vercel.
+Autonomous Scaffolding & Local Project Generator for Next.js 14 + Tailwind CSS.
+Eliminates 30 minutes of repetitive manual configuration and optionally hooks into Vercel.
 """
 
 import os
@@ -86,7 +85,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Autonomous Next.js 14 App',
-  description: 'Built with System Zero autonomous cloud scaffolding',
+  description: 'Built with System Zero autonomous local scaffolding',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -112,13 +111,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <main className="flex min-h-screen flex-col items-center justify-center p-8">
       <div className="max-w-xl text-center space-y-4">
         <div className="inline-block px-3 py-1 bg-cyan-950 text-cyan-400 rounded-full text-xs font-mono uppercase tracking-wider">
-          Part 4: Autonomous Cloud Scaffolding
+          Part 4: Autonomous Local Scaffolding
         </div>
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl text-white">
           {project_name}
         </h1>
         <p className="text-slate-400">
-          Generated automatically without manual boilerplate. Next.js 14 + Tailwind CSS + App Router ready for instant Vercel deployment.
+          Generated automatically without manual boilerplate. Next.js 14 + Tailwind CSS + App Router ready for instant development.
         </p>
       </div>
     </main>
@@ -131,19 +130,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     print(f"✅ [COMPLETED] Next.js 14 project scaffolded successfully in '{target_dir}'.")
 
 def deploy_to_vercel(project_dir: str):
-    """Triggers autonomous cloud deployment to Vercel via Vercel CLI."""
+    """Triggers optional autonomous cloud deployment to Vercel via Vercel CLI."""
     print(f"\n🌐 [DEPLOY] Connecting to Vercel deployment pipeline (vercel.com)...")
     try:
-        # Check if vercel CLI is installed
         res = subprocess.run(["vercel", "--version"], capture_output=True, text=True)
         if res.returncode == 0:
             print("  --> Vercel CLI detected. Initiating autonomous preview deployment...")
             subprocess.run(["vercel", "--yes"], cwd=project_dir)
         else:
-            print("  ℹ️ Vercel CLI not authenticated locally. Connect via 'vercel login' or git push to deploy.")
+            print("  ⚠️ Vercel CLI not authenticated locally. Connect via 'vercel login' or git push to deploy.")
     except FileNotFoundError:
         print("  ℹ️ Vercel CLI not found in PATH. Install with: npm i -g vercel")
-        print("  🚀 Link your GitHub repository directly to vercel.com for 1-click CI/CD deployment!")
+        print("  ℹ️ Link your GitHub repository directly to vercel.com for 1-click CI/CD deployment!")
 
 def main():
     parser = argparse.ArgumentParser(description="Autonomous Next.js 14 Scaffolder - System Zero")
@@ -154,7 +152,7 @@ def main():
 
     print("=" * 65)
     print(" 🚀 Autonomous Next.js 14 + Tailwind Scaffolder")
-    print("    Deployment Pipeline: vercel.com")
+    print("    Local Scaffolding Pipeline (System Zero)")
     print("=" * 65)
 
     scaffold_nextjs_project(args.out, args.name)

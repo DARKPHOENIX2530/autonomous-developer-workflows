@@ -1,4 +1,4 @@
-﻿"""
+"""
 Video 1: Local RAM Overload (8GB RAM is Dead. Do This Instead)
 Part 1 of 20: Autonomous Developer Workflows Series
 Cloud Framework: freebuff.com
@@ -21,8 +21,6 @@ import os
 import gc
 import tracemalloc
 import argparse
-import urllib.request
-import json
 from typing import Dict, Any, List
 
 def check_system_memory() -> Dict[str, float]:
@@ -38,36 +36,34 @@ def check_system_memory() -> Dict[str, float]:
         # Fallback if psutil not installed
         stats["total_gb"] = 8.0
         stats["available_gb"] = 2.5
-        stats["percent_used"] = 68.7
+        stats["percent_used"] = 77.0
     return stats
 
-def run_local_heavy_compute(chunk_size_mb: int = 500, iterations: int = 5) -> Dict[str, Any]:
+def run_local_heavy_compute(chunk_size_mb: int = 400, iterations: int = 4) -> Dict[str, Any]:
     """
-    Simulates memory pressure and heavy CPU matrix calculations on the local rig.
-    Warns when approaching thermal/RAM throttling on 8GB machines.
+    Simulates high memory pressure on the local host by allocating large memory chunks.
+    Monitors peak allocation and traces memory footprint.
     """
     print(f"\n[LOCAL EXECUTION] Starting memory-intensive compute on local hardware...")
     tracemalloc.start()
     start_time = time.perf_counter()
+    
     allocated_memory: List[bytearray] = []
     
     try:
         for i in range(1, iterations + 1):
-            allocated_mb = i * chunk_size_mb
-            print(f"  [Allocating] Chunk {i}/{iterations} -> Current memory footprint: ~{allocated_mb} MB")
-            
-            # Simulate memory load
+            # Allocate chunk
             allocated_memory.append(bytearray(chunk_size_mb * 1024 * 1024))
-            
-            # Simulate CPU-heavy matrix math
-            _ = sum(x * x for x in range(2_000_000))
-            
             current, peak = tracemalloc.get_traced_memory()
+            print(f"  [Allocating] Chunk {i}/{iterations} -> Current memory footprint: ~{i * chunk_size_mb} MB")
             print(f"  --> Traced Current: {current / 1e6:.1f} MB | Peak: {peak / 1e6:.1f} MB")
+            time.sleep(0.4)
             
-            if peak / 1e6 > 3000:
-                print("  ⚠️ [WARNING] RAM threshold exceeded for 8GB device! System swap & thermal throttling imminent.")
-                
+        # Simulate CPU calculation over the allocated buffer
+        for chunk in allocated_memory:
+            chunk[0] = 0xFF
+            chunk[-1] = 0xAA
+
         elapsed = time.perf_counter() - start_time
         _, peak = tracemalloc.get_traced_memory()
         return {
@@ -139,7 +135,7 @@ def main():
         print(f"Throttling : {'YES (Thermal & Swap Swapping)' if local_results['throttled'] else 'NO'}")
 
     if args.mode in ["cloud", "compare"]:
-        cloud_payload = {"task": "matrix_crunch", "matrix_dim": [10000, 10000], "precision": "float32"}
+        cloud_payload = {"task": "heavy_ast_parse_and_build", "source_files_count": 850}
         cloud_results = offload_to_freebuff_cluster(cloud_payload, cluster_url=args.cluster_url)
         print("\n--- Freebuff Cloud Results ---")
         print(f"Duration   : {cloud_results['duration_seconds']}s")

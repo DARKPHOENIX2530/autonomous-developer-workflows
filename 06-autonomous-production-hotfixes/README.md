@@ -1,4 +1,4 @@
-# Episode 06: Autonomous Production Hotfixes
+# 🚀 Episode 06: Autonomous Production Hotfixes at 3 AM
 
 > **Autonomous Developer Workflows Series (Part 6 of 20)**  
 > *Architecture: Antigravity Master Architect | Execution: OpenCode Free Cloud Worker Fleet*
@@ -7,31 +7,31 @@ Your production application just crashed at 3 AM. Instead of paging an on-call e
 
 ---
 
-## ⚡ Architecture Overview
+## 🛠️ Architecture Overview
 
 ```
                                   [ PRODUCTION CRASH ]
                            FastAPI / PostgreSQL Gateway (3:00 AM)
                                            │
                                            ▼ (HTTP 500 Webhook)
-┌────────────────────────────────────────────────────────────────────────────────┐
-│                   SYSTEM ZERO AUTONOMOUS DEVOPS AGENT                          │
-│                                                                                │
-│  1. Ingest Webhook & Stack Trace (server_logs.log)                             │
-│     ↳ Culprit: broken_service.py -> process_payment_settlement (line 31)       │
-│     ↳ Error: ZeroDivisionError: float division by zero                         │
-│                                                                                │
-│  2. Surgical AST Patch Injection                                               │
-│     ↳ Injects defensive guard clause: `if not num_splits or num_splits <= 0:`  │
-│                                                                                │
-│  3. Isolated Pytest Sandbox Verification                                       │
-│     ↳ Runs `pytest test_service.py -v` (5/5 tests passing in 0.04s)            │
-│                                                                                │
-│  4. Automated Git & GitHub CLI Deployment                                      │
-│     ↳ `git checkout -b hotfix/auto-fix-zerodivision`                           │
-│     ↳ `git commit -m "fix(prod): auto-hotfix server crash on zero splits"`    │
-│     ↳ `gh pr create --title "fix(prod): auto-hotfix server crash" ...`         │
-└────────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                   SYSTEM ZERO AUTONOMOUS DEVOPS AGENT                        │
+│                                                                              │
+│  1. Ingest Webhook & Stack Trace (server_logs.log)                           │
+│     -> Culprit: broken_service.py -> process_payment_settlement (line 31)    │
+│     -> Error: ZeroDivisionError: float division by zero                       │
+│                                                                              │
+│  2. Surgical AST Patch Injection                                             │
+│     -> Injects defensive guard clause: `if not num_splits or num_splits <= 0:`│
+│                                                                              │
+│  3. Isolated Pytest Sandbox Verification                                     │
+│     -> Runs `pytest test_service.py -v` (5/5 tests passing in 0.04s)         │
+│                                                                              │
+│  4. Automated Git & GitHub CLI Deployment                                    │
+│     -> `git checkout -b hotfix/auto-fix-zerodivision`                         │
+│     -> `git commit -m "fix(prod): auto-hotfix server crash on zero splits"`  │
+│     -> `gh pr create --title "fix(prod): auto-hotfix server crash" ...`       │
+└──────────────────────────────────────────────────────────────────────────────┘
                                            │
                                            ▼
                            [ GITHUB PULL REQUEST #142 ]
@@ -40,7 +40,7 @@ Your production application just crashed at 3 AM. Instead of paging an on-call e
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 - [`broken_service.py`](broken_service.py): Payment settlement service containing the unhandled zero-split division bug.
 - [`test_service.py`](test_service.py): Comprehensive Pytest suite covering VIP discount tiers, valid splits, and zero-split edge cases.
@@ -50,11 +50,11 @@ Your production application just crashed at 3 AM. Instead of paging an on-call e
 
 ---
 
-## 🚀 Quickstart & Reproduction
+## ⚡ Quickstart & Reproduction
 
 ### 1. Observe the Unpatched Crash
 ```bash
-pytest test_service.py -v
+python -m pytest test_service.py -v
 ```
 *(Fails with `ZeroDivisionError: float division by zero`)*
 
@@ -71,7 +71,7 @@ python hotfix_and_pr.py --restore
 
 ---
 
-## 💡 Key Metric
+## 📊 Key Metrics
 
 | Metric | Manual Triage | Autonomous Agent |
 | :--- | :--- | :--- |

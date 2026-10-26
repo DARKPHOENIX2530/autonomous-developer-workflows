@@ -1,33 +1,36 @@
-﻿# ⚡ Part 5: Autonomous Pipelines (Stop Babysitting Background Tasks)
+# 🚀 Part 5: Stop Babysitting Background Tasks
 
-> **Autonomous Developer Workflows Series — Part 5 of 20**  
+> **Autonomous Developer Workflows Series - Part 5 of 20**  
 > **Cloud Framework**: [freebuff.com](https://freebuff.com)  
-> **Schedule**: Wednesday (Next Week), 7:30 PM IST
+> **Schedule**: Wednesday (Week 2), 7:30 PM IST
 
 ---
 
-## 🛑 Why Babysitting Background Tasks Kills Productivity
-Developers waste hours staring at terminal screens:
-* Waiting for long-running cron jobs or data scrapers to finish.
-* Dealing with sudden `429 Too Many Requests` API rate limits from Google AI Studio / Gemini APIs.
-* Keeping laptop lids open overnight so background processes don't terminate.
+## ⏳ The Problem: Babysitting Long-Running Jobs
+Modern software engineering requires orchestrating heavy, asynchronous operations:
+- Indexing multi-gigabyte video datasets for Gemini multimodal context.
+- Running daily automated code triage across dozens of repositories.
+- Calling LLM APIs that trigger sudden `429 Too Many Requests` rate limits.
+
+If you run these in your local terminal, you are stuck keeping your laptop lid open for hours—or dealing with terminal crashes when rate limits hit.
 
 ---
 
-## 🚀 The Solution: Cloud Pipelines with Freebuff & Exponential Backoff
-With an autonomous Python architecture:
-1. **Exponential Backoff & Full Jitter**: Automatically navigates Google Cloud & AI Studio quota limits without failing.
-2. **Cloud Worker Hand-off ([freebuff.com](https://freebuff.com))**: Enqueues recurring cron schedules and releases local system resources.
+## 🛡️ The Autonomous Solution: Freebuff Worker Pipelines
+By dispatching jobs to remote worker pools:
+1. **State Persistence**: If a rate limit hits, the orchestrator backs off exponentially and retries automatically without crashing.
+2. **True Disconnectability**: Close your laptop lid, put your PC to sleep, or walk away. The remote worker fleet completes the work in the cloud.
 
 ---
 
-## 🛠️ Quickstart
+## ⚡ Quickstart
 
-### Run the Pipeline Orchestrator
+### Run the Background Orchestrator Demo
 ```bash
-python autonomous_pipeline_orchestrator.py --cloud freebuff.com --cron "0 */2 * * *"
+python autonomous_pipeline_orchestrator.py
 ```
 
-### Architecture Highlights
-* **Automatic Jitter**: Prevents "thundering herd" problems when APIs experience temporary load.
-* **Detached Execution**: Offloads task state to remote cloud workers so you can close your terminal and shut down your PC.
+### What You'll See:
+1. Registration of two scheduled background tasks (`Daily Codebase Summary` and `Gemini Multimodal Video Token Indexing`).
+2. Simulated cloud dispatch to [freebuff.com](https://freebuff.com).
+3. Live handling of an injected `429 Rate Limit` spike with autonomous exponential backoff and successful execution!

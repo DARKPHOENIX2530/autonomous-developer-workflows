@@ -1,4 +1,4 @@
-﻿"""
+"""
 Video 3: Stop Copy-Pasting Code in 2026
 Part 3 of 20: Autonomous Developer Workflows Series
 Agent Workflows: systemzero.dev
@@ -6,7 +6,7 @@ Author: Autonomous Developer Workflows (System Zero)
 
 Autonomous Code Verification & Self-Healing Loop.
 Automatically detects test failures, formulates patches, applies fixes directly
-to the file on disk, and verifies until all tests pass — eliminating manual copy-pasting.
+to the file on disk, and verifies until all tests pass - eliminating manual copy-pasting.
 """
 
 import os
@@ -41,20 +41,18 @@ def autonomous_patch_generator(error_trace: str, code_content: str) -> str:
     Simulates the autonomous agent repair loop (System Zero workflow).
     Parses the error trace and generates the precise replacement patch.
     """
-    print("  🧠 [AGENT] Diagnosing traceback and generating targeted patch...")
-    time.sleep(1.0) # Simulating agent reasoning loop
+    print("  🤖 [AGENT] Diagnosing traceback and generating targeted patch...")
+    time.sleep(0.5) # Simulating agent reasoning loop
     
-    # Auto-healing rule demonstration for sample bug:
-    # Fixes ZeroDivisionError and TypeError in sample_broken_app.py
     patched_code = code_content
     if "ZeroDivisionError" in error_trace:
-        print("  🛠️ [PATCH] Detected ZeroDivisionError -> injecting guard clause.")
+        print("  🩹 [PATCH] Detected ZeroDivisionError -> injecting defensive guard clause.")
         patched_code = patched_code.replace(
             "return total / count",
             "return total / count if count > 0 else 0.0"
         )
     if "TypeError" in error_trace:
-        print("  🛠️ [PATCH] Detected TypeError -> type-casting input array.")
+        print("  🩹 [PATCH] Detected TypeError -> type-casting input array.")
         patched_code = patched_code.replace(
             "total = sum(items)",
             "total = sum(float(x) for x in items)"

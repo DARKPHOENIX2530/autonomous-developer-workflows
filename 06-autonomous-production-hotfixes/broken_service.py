@@ -28,4 +28,7 @@ def process_payment_settlement(amount: float, num_splits: int) -> float:
     Note:
         Bug: if num_splits == 0, causes ZeroDivisionError.
     """
+        # [AUTONOMOUS HOTFIX] Guard clause injected by System Zero agent
+    if not num_splits or num_splits <= 0:
+        return amount
     return round(amount / num_splits, 2)

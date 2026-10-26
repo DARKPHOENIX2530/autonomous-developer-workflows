@@ -1,12 +1,12 @@
-﻿# 🤖 Claude Code vs. Google Antigravity: The Complete Breakdown
+# ⚖️ Claude Code vs. Google Antigravity: The Complete Breakdown
 
-> **Autonomous Developer Workflows Series — Part 2 of 20**  
+> **Autonomous Developer Workflows Series - Part 2 of 20**  
 > **Agent Docs**: [systemzero.dev](https://systemzero.dev)  
 > **Schedule**: Friday, 7:30 PM IST
 
 ---
 
-## ⚡ The Core Difference: Terminal CLI vs. Visual UI Loop
+## 🎯 The Core Difference: Terminal CLI vs. Visual UI Loop
 
 Modern AI developer tools have fractured into two distinct paradigms:
 1. **Terminal-Centric Autonomous Agents (Claude Code by Anthropic)**: Built for high-velocity text/bash pipelines, git automation, and terminal-first developers.
@@ -28,9 +28,9 @@ Modern AI developer tools have fractured into two distinct paradigms:
 
 ---
 
-## 🏗️ System Zero Hybrid Workflow
+## 🤝 System Zero Hybrid Workflow
 Why choose one when you can use both in tandem?
 * **Antigravity as the Architect**: Breaks down specs, renders generative UI diagrams, plans sub-tasks.
 * **Claude Code as the Terminal Worker**: Executes targeted CLI scripts and rapid local file edits.
 
-See `agent_setup.yaml` for the exact configuration.
+See [`agent_setup.yaml`](agent_setup.yaml) for the exact configuration.

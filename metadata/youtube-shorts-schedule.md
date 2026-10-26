@@ -1,10 +1,10 @@
-﻿# 🎬 Autonomous Developer Workflows Series (YouTube Shorts)
+# 🚀 Autonomous Developer Workflows Series (YouTube Shorts Schedule)
 
-> **Series Overview**: 20-Part practical engineering series covering autonomous AI agents, remote cloud execution, developer productivity, and next-gen workflows.
+> **Series Overview**: Practical engineering series covering autonomous AI agents, remote cloud execution, developer productivity, and next-gen workflows.
 
 ---
 
-## 📌 Video 1: Local RAM Overload
+## 📺 Video 1: Local RAM Overload
 * **Schedule**: Wednesday, 7:30 PM IST
 * **Title**: `8GB RAM is Dead. Do This Instead. #Shorts`
 * **Description**:
@@ -24,7 +24,7 @@
 
 ---
 
-## 📌 Video 2: Claude vs Google
+## 📺 Video 2: Claude vs Google
 * **Schedule**: Friday, 7:30 PM IST
 * **Title**: `Claude Code vs Google Antigravity. #Shorts`
 * **Description**:
@@ -44,100 +44,97 @@
 
 ---
 
-## 📌 Video 3: ChatGPT Killing Speed
+## 📺 Video 3: Stop Copy-Pasting Code in 2026
 * **Schedule**: Saturday, 7:30 PM IST
 * **Title**: `Stop Copy-Pasting Code in 2026. #Shorts`
 * **Description**:
   ```text
-  Manual ChatGPT prompting is obsolete. Use autonomous agents to verify and patch directly.
-  Agent Workflows: systemzero.dev
+  Automate the verification loop. Let your agent test, catch regressions, and patch code on disk.
+  Agent Docs: systemzero.dev
   Part 3 of 20: Autonomous Developer Workflows Series
-  #Coding #ChatGPT #Shorts
+  #Python #SelfHealingCode #Shorts
   ```
-* **YouTube Tags**: `chatgpt coding, autonomous agents, python scripts, developer productivity`
+* **YouTube Tags**: `ai code verification, pytest automation, self healing code, python coding, system zero`
 * **Pinned Comment**:
   ```text
-  Grab the autonomous verification script used in this test 👇
+  Clone the autonomous self-healing test harness here 👇
   https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`03-autonomous-code-verification/`](../03-autonomous-code-verification/)
 
 ---
 
-## 📌 Video 4: Manual Boilerplate
+## 📺 Video 4: Never Manually Scaffold Next.js Again
 * **Schedule**: Monday, 7:30 PM IST
 * **Title**: `Never Manually Scaffold Next.js Again. #Shorts`
 * **Description**:
   ```text
-  Deploy Next.js 14 + Tailwind instantly using autonomous cloud scaffolding.
-  Deployment Pipeline: vercel.com
+  Eliminate boilerplate setup. Instant Next.js 14 + Tailwind CSS local scaffolding in seconds.
   Part 4 of 20: Autonomous Developer Workflows Series
-  #Nextjs #React #Shorts
+  #NextJS #WebDev #Shorts
   ```
-* **YouTube Tags**: `nextjs 14, tailwind css, web development, vercel deployment, react tutorial`
+* **YouTube Tags**: `nextjs 14, tailwind css, web development scaffolding, autonomous coder, react tutorial`
 * **Pinned Comment**:
   ```text
-  Get the exact automated deployment script used in this build 👇
+  Grab the 1-click scaffolding script here 👇
   https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`04-nextjs-autonomous-scaffolding/`](../04-nextjs-autonomous-scaffolding/)
 
 ---
 
-## 📌 Video 5: Autonomous Pipelines
-* **Schedule**: Wednesday (Next Week), 7:30 PM IST
+## 📺 Video 5: Stop Babysitting Background Tasks
+* **Schedule**: Wednesday, 7:30 PM IST
 * **Title**: `Stop Babysitting Background Tasks. #Shorts`
 * **Description**:
   ```text
-  Offload API rate limits and cron monitoring to cloud agents using a Python architecture.
+  Handle API rate limits and long-running background worker queues autonomously.
   Cloud Framework: freebuff.com
   Part 5 of 20: Autonomous Developer Workflows Series
-  #CloudComputing #Python #Shorts
+  #DevOps #CloudCompute #Shorts
   ```
-* **YouTube Tags**: `python automation, background tasks, cron jobs, google cloud api, backend developer`
+* **YouTube Tags**: `background tasks, 429 rate limit retry, cloud workers, freebuff, python devops`
 * **Pinned Comment**:
   ```text
-  Grab the Python orchestration script linked to Google Cloud / AI Studio APIs 👇
+  Grab the resilient pipeline orchestrator code here 👇
   https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
 * **Associated Code**: [`05-autonomous-background-pipelines/`](../05-autonomous-background-pipelines/)
 
 ---
 
-# 🎬 8-Minute Master Anchor Tutorial (Long-Form)
-
-> **Role in Channel Strategy**: This long-form master video connects all 5 YouTube Shorts into one cohesive build and acts as the **"Related Video"** anchor on YouTube Studio for Shorts 1 through 5.
-
-* **File Name**: `Master_Tutorial_Autonomous_Developer_Workflows.mp4`
-* **Resolution**: 1080p Full HD (1920x1080, 16:9 Landscape)
-* **Title**: `8GB RAM is Dead: The Autonomous Developer Stack (Full Tutorial)`
+## 📺 Video 6: Autonomous Production Hotfixes at 3 AM
+* **Schedule**: Friday, 7:30 PM IST
+* **Title**: `Autonomous Production Hotfixes at 3 AM. #Shorts`
 * **Description**:
   ```text
-  Stop thermal throttling your local machine running autonomous AI agents. In this master tutorial, we break down the exact production architecture to offload heavy compute, pit Claude Code against Google Antigravity, and autonomously scaffold a full-stack Next.js and Python pipeline without manual boilerplate.
-
-  🔗 Clone the Complete Repository:
-  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
-
-  ⚡ Video Chapters & Timestamps:
-  0:00 - The Hook: Why 8GB RAM is Dead in 2026
-  0:12 - Real Task Manager Benchmark (Thermal Throttling & Swap)
-  0:42 - The Architectural Fix: Freebuff Cloud Offloading
-  1:14 - The Agent Showdown: Claude Code vs. Google Antigravity
-  2:27 - Stop Copy-Pasting: Autonomous Self-Healing Verification
-  3:02 - Instant Cloud Scaffolding (Next.js 14 + Tailwind + Vercel)
-  3:36 - Developer Intelligence: 429 Rate Limits & Background Cron
-  4:14 - The Payoff: Clone the Full Environment on GitHub  🚀 Frameworks & Tools Featured:
-  - Cloud Compute: freebuff.com
-  - Agent Docs: systemzero.dev
-  - Edge Deployment: vercel.com
-  - GitHub Repo: DARKPHOENIX2530/autonomous-developer-workflows
-
-  #AI #Python #Nextjs #WebDev #ClaudeCode #Antigravity #AutonomousAgents
+  Server crashed at 3 AM? Your autonomous agent parses the stack trace, injects a defensive patch, verifies with Pytest, and opens a GitHub PR.
+  Part 6 of 20: Autonomous Developer Workflows Series
+  #DevOps #GitHub #Shorts
   ```
-* **YouTube Tags**:
-  `autonomous agents, 8gb ram programming, claude code, google antigravity, python automation, nextjs 14, tailwind css, freebuff, vercel deployment, developer productivity, ai coding assistant, system zero`
+* **YouTube Tags**: `devops automation, production bug fix, incident response, pytest, python hotfix`
 * **Pinned Comment**:
   ```text
-  Grab the complete code, benchmarks, YAML configs, and Next.js scaffolder here 👇
+  Grab the incident sentry & automated PR script here 👇
   https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
   ```
+* **Associated Code**: [`06-autonomous-production-hotfixes/`](../06-autonomous-production-hotfixes/)
+
+---
+
+## 📺 Video 7: Top 3 AI Coding Tools in 2026
+* **Schedule**: Saturday, 7:30 PM IST
+* **Title**: `Top 3 AI Coding Tools in 2026 (Ranked). #Shorts`
+* **Description**:
+  ```text
+  Cursor vs Claude Code vs Google Antigravity. Which AI tool actually belongs in your daily engineering stack?
+  Part 7 of 20: Autonomous Developer Workflows Series
+  #AICoding #Cursor #Antigravity #Shorts
+  ```
+* **YouTube Tags**: `top ai coding tools, cursor vs claude, google antigravity, ai developer 2026, coding tools`
+* **Pinned Comment**:
+  ```text
+  Grab the complete benchmarking comparison matrix here 👇
+  https://github.com/DARKPHOENIX2530/autonomous-developer-workflows
+  ```
+* **Associated Code**: [`07-top-3-ai-coding-tools/`](../07-top-3-ai-coding-tools/)
