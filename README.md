@@ -5,7 +5,7 @@
 [![Cloud Framework](https://img.shields.io/badge/Cloud-freebuff.com-orange.svg)](https://freebuff.com)
 [![Agent Docs](https://img.shields.io/badge/Docs-systemzero.dev-blueviolet.svg)](https://systemzero.dev)
 
-> Production code repository, autonomous scripts, benchmarks, and multi-agent architectures featured in the **Autonomous Developer Workflows** video series on YouTube.
+> Production code repository, autonomous scripts, benchmarks, and multi-agent architectures featured on the [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech) YouTube channel.
 
 ---
 
@@ -28,19 +28,19 @@ The comprehensive deep dive combining the core autonomous developer workflows in
 
 ---
 
-## 📱 YouTube Shorts Guide (Episodes 1 - 7)
+## 📱 YouTube Shorts Guide (Episodes 1 - 7 on [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech))
 
-| Part | Episode Title | Schedule / Status | Tech Stack | Code Directory |
-| :---: | :--- | :--- | :--- | :--- |
-| **01** | **8GB RAM is Dead. Do This Instead.** | Wed, 7:30 PM IST | [freebuff.com](https://freebuff.com) | [`01-local-ram-overload/`](01-local-ram-overload/) |
-| **02** | **Claude Code vs Google Antigravity.** | Fri, 7:30 PM IST | [systemzero.dev](https://systemzero.dev) | [`02-claude-vs-antigravity/`](02-claude-vs-antigravity/) |
-| **03** | **Stop Copy-Pasting Code in 2026.** | Sat, 7:30 PM IST | [systemzero.dev](https://systemzero.dev) | [`03-autonomous-code-verification/`](03-autonomous-code-verification/) |
-| **04** | **Never Manually Scaffold Next.js Again.** | Mon, 7:30 PM IST | Next.js 14 / Tailwind | [`04-nextjs-autonomous-scaffolding/`](04-nextjs-autonomous-scaffolding/) |
-| **05** | **Stop Babysitting Background Tasks.** | Wed, 7:30 PM IST | [freebuff.com](https://freebuff.com) | [`05-autonomous-background-pipelines/`](05-autonomous-background-pipelines/) |
-| **06** | **Autonomous Production Hotfixes at 3 AM.** | Fri, 7:30 PM IST | Pytest / DevOps Sentry | [`06-autonomous-production-hotfixes/`](06-autonomous-production-hotfixes/) |
-| **07** | **Top 3 AI Coding Tools in 2026.** | Sat, 7:30 PM IST | Benchmarking Matrix | [`07-top-3-ai-coding-tools/`](07-top-3-ai-coding-tools/) |
+| Part | Live Episode Title | Published Date | YouTube Link | Code Directory |
+| :---: | :--- | :--- | :---: | :--- |
+| **01** | **8GB RAM is Dead. Do This Instead.** | Oct 14, 2026 | [Watch](https://youtu.be/9CvZQvSrL7Q) | [`01-local-ram-overload/`](01-local-ram-overload/) |
+| **02** | **Claude Code vs Google Antigravity.** | Oct 16, 2026 | [Watch](https://youtu.be/O9cNljLiM60) | [`02-claude-vs-antigravity/`](02-claude-vs-antigravity/) |
+| **03** | **System Zero Autonomous Full Stack.** | Oct 17, 2026 | [Watch](https://youtu.be/guFYzxngsXE) | [`04-nextjs-autonomous-scaffolding/`](04-nextjs-autonomous-scaffolding/) |
+| **04** | **System Zero Autonomous Pipelines** | Oct 19, 2026 | [Watch](https://youtu.be/qauvXWbE34s) | [`05-autonomous-background-pipelines/`](05-autonomous-background-pipelines/) |
+| **05** | **System Zero Developer Intelligence.** | Oct 21, 2026 | [Watch](https://youtu.be/jzm37BaWeKI) | [`05-autonomous-background-pipelines/`](05-autonomous-background-pipelines/) |
+| **06** | **Autonomous Production Hotfixes at 3 AM.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-06) | [`06-autonomous-production-hotfixes/`](06-autonomous-production-hotfixes/) |
+| **07** | **Top 3 AI Coding Tools in 2026.** | In Queue | [Ready](metadata/youtube-shorts-schedule.md#episode-07) | [`07-top-3-ai-coding-tools/`](07-top-3-ai-coding-tools/) |
 
-👉 **Copy-Ready Shorts Upload Metadata**: [`metadata/youtube-shorts-schedule.md`](metadata/youtube-shorts-schedule.md)
+👉 **Complete Copy-Ready Shorts Upload Metadata**: [`metadata/youtube-shorts-schedule.md`](metadata/youtube-shorts-schedule.md)
 
 ---
 
@@ -63,19 +63,13 @@ cd autonomous-developer-workflows
 * **Part 2 (Claude vs Antigravity Setup)**:
   Inspect the architecture breakdown in [`02-claude-vs-antigravity/comparison_matrix.md`](02-claude-vs-antigravity/comparison_matrix.md) and agent orchestration in [`02-claude-vs-antigravity/agent_setup.yaml`](02-claude-vs-antigravity/agent_setup.yaml).
 
-* **Part 3 (Autonomous Verification & Self-Healing Patch)**:
-  ```bash
-  cd 03-autonomous-code-verification
-  python verify_and_patch.py --target sample_broken_app.py
-  ```
-
-* **Part 4 (Autonomous Next.js 14 Local Scaffolder)**:
+* **Part 3 (Autonomous Next.js 14 Local Scaffolder)**:
   ```bash
   cd 04-nextjs-autonomous-scaffolding
   python scaffold_and_deploy.py --name my-app
   ```
 
-* **Part 5 (Background Task Rate Limit Orchestration)**:
+* **Part 4 & 5 (Background Task Rate Limit Orchestration)**:
   ```bash
   cd 05-autonomous-background-pipelines
   python autonomous_pipeline_orchestrator.py
@@ -96,6 +90,7 @@ cd autonomous-developer-workflows
 ---
 
 ## 🤝 System Zero Architecture & Ecosystem
+* **Channel**: [@SystemZeroTech](https://www.youtube.com/@SystemZeroTech)
 * **Cloud Infrastructure**: [freebuff.com](https://freebuff.com)
 * **Agent Documentation**: [systemzero.dev](https://systemzero.dev)
 * **Creator / Developer**: **DARKPHOENIX2530** (System Zero)
